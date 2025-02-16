@@ -1,16 +1,16 @@
 {
-  "name": "compound_interest_calculator",
+  "name": "millonetas",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Investment calculator CLI tool",
+  "main": "investCalc.js",
+  "bin": {
+    "millonetas": "./investCalc.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "prompt-sync": "^4.2.0",
-    "yargs": "^17.7.2"
-  }
+    "yargs": "^17.0.0",
+    "prompt-sync": "^4.0.0"
+  },
+  "keywords": ["compound interest calculator", "node", "financial", "fintech", "cli calculator"],
+  "author": "https://github.com/vegadelalyra",
+  "license": "MIT"
 }
