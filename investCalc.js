@@ -225,7 +225,7 @@ for (let deposit = 0; deposit <= maxDeposit; deposit++) {
 // Use a tolerance factor of 1.05: finalCapital must be ≤ goal * 1.05.
 // Then, sort by closeness to goal (i.e. finalCapital - goal) and take the top 10.
 const upTolerance = 1.05;
-const downTolerance = 0.85;
+const downTolerance = 0.8;
 let filtered = fullScenarios.filter(
   s => s.finalCapital <= goal * upTolerance && s.finalCapital >= goal * downTolerance
 );
